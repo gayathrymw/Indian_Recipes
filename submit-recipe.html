@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Your Recipe</title>
+    <link rel="stylesheet" href="submit-recipe.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Submit Your Own Recipe</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="about.html">About Us</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <section class="form-section colorful-bg">
+        <h2>We'd Love to See Your Recipe!</h2>
+        <p>Please fill out the form below to share your delicious recipe with us. We can't wait to try it!</p>
+        <form>
+            <label for="name">Your Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+            <label for="email">Your Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+            <label for="recipe-name">Recipe Name:</label><br>
+            <input type="text" id="recipe-name" name="recipe-name" placeholder="Enter the recipe name" required><br><br>
+
+            <label for="ingredients">Ingredients:</label><br>
+            <textarea id="ingredients" name="ingredients" rows="5" placeholder="List all the ingredients" required></textarea><br><br>
+
+            <label for="instructions">Cooking Instructions:</label><br>
+            <textarea id="instructions" name="instructions" rows="7" placeholder="Provide detailed cooking instructions" required></textarea><br><br>
+
+            <label for="image-url">Image URL (Optional):</label><br>
+            <input type="url" id="image-url" name="image-url" placeholder="Provide an image URL"><br><br>
+
+            <input type="submit" value="Submit Recipe">
+        </form>
+    </section>
+</body>
+</html>
